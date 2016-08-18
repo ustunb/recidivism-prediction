@@ -23,10 +23,10 @@ Once you have obtained the raw data, you can create the processed data sets we u
 ### Software Requirements
 
 - [slim-matlab](https://github.com/ustunb/slim-matlab)
-- IBM ILOG CPLEX Optimization Studio (available through IBM Academic Initiative)
+- IBM ILOG CPLEX Optimization Studio (available through the Academic Initiative, [as described here](https://github.com/ustunb/slim-matlab#cplex))
 - MATLAB 2014b or later
 - R 3.0.0 or later
-- R packages: dplyr, R.matlab, glmnet, sgb, randomForest, e1071, rpart, C5.0 
+- R packages: [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), [R.matlab](https://cran.r-project.org/web/packages/R.matlab/), [glmnet](https://cran.r-project.org/web/packages/glmnet/), [gbm](https://cran.r-project.org/web/packages/gbm/), [randomForest](https://cran.r-project.org/web/packages/randomForest/), [e1071](https://cran.r-project.org/web/packages/e1071), [rpart](https://cran.r-project.org/web/packages/rpart/), [C50](https://cran.r-project.org/web/packages/C50/)
 
 We fit models for 6 datasets x 19 values of class weights. The full set of 19 class weights are specific to each dataset:
 
