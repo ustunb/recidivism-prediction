@@ -1,17 +1,15 @@
-# recidivism-prediction
-
-This repository contains code to reproduce the recidivism prediction models presented in [Interpretable Classification Models for Recidivism Prediction](http://arxiv.org/abs/1503.07810)
+This repository contains software to reproduce the recidivism prediction models from the paper [Interpretable Classification Models for Recidivism Prediction](http://arxiv.org/abs/1503.07810)
 
 ## Generating the Processed Datasets
 
-The dataset for this paper is processed using raw data from the study:
+The datasets are processed using raw data from the study:
 
 `Recidivism of Prisoners Released in 1994 (ICPSR 3355)`
 
-The raw data is publically available. Given to the sensitive nature of the raw data, however, our agreement with ICPSR does not allow us to post the data online. Instead, you can request access directly from ICPSR at [this link](:
+Given to the sensitive nature of the raw data, however, our agreement with ICPSR does not allow us to post the data online. However, the data is available to the general public, and you can obtain from ICPSR at [this link](:
 http://www.icpsr.umich.edu/icpsrweb/NACJD/studies/3355/version/8). 
 
-Once you have obtained raw data, you can create the processed data sets we used to fit models by running `create_datasets.R`. This will create the following files in the subdirectory `/data/`  with the input variables, outcome variables and folds used to fit models in R and MATLAB:
+Once you have obtained the raw data, you can create the processed data sets we used to fit models by running `create_datasets.R`. This will create the following files in the subdirectory `/data/`  with the input variables, outcome variables and folds used to fit models in R and MATLAB:
 
 - `arrest.RData` / `arrest.mat`
 - `drug.RData` / `drug.mat`
